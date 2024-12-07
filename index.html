@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+    <title>Burger</title>
+    <style>
+        header{
+            background-image: url(./imegs/header/bg_img\ 1.svg);
+        }
+        .bgimg{
+            background-image: url(./imegs/section_bg/section_bg\ 1.jpg);
+        }
+    </style>
+</head>
+<body class="bg-[black]">
+    <header class="w-[1440px] h-[768px] m-auto bg-[url('./imegs/header/bg_img\ 1.svg')]">
+        <div class="container m-auto max-w-{1140px}">
+            <div class="flex justify-between mt-4">
+                <p class="text-white w-[160px] h-[30px] text-center bg-[#4E9F0D] text-lg mt-7 ml-[135px] max-sm:ml-[30px]">STREER88</p>
+                <ul class="flex gap-10 text-[white] mr-[62px] max-sm:hidden">
+                    <li class="w-[127px] h-[90px] font-bold text-center p-[30px] text-lg hover:bg-[#4E9F0D] text-[white]">Savatcha</li>
+                    <li class="w-[127px] h-[90px] font-bold text-center p-[30px] text-lg hover:bg-[#4E9F0D] text-[white]">Menu</li>
+                    <li class="w-[127px] h-[90px] font-bold text-center p-[16px] text-lg hover:bg-[#4E9F0D] text-[white]">Biz haqimizda</li>
+                    <li class="w-[127px] h-[90px] font-bold text-center p-[30px] text-lg hover:bg-[#4E9F0D] text-[white]">Контакты</li>
+                </ul>
+                <div class="text-[white] text-[70px] hidden max-sm:block max-sm:mr-[200px]"><i class="fa-solid fa-bars"></i></div>
+            </div> 
+            <div class="max-sm:ml-[10px]">
+                <h1 class="text-[#4E9F0D] mt-[180px] ml-[130px] text-[72px] font-bold">Большой гамбургер</h1>
+                <h2 class="text-[#4E9F0D] ml-[130px] text-[36px]">говядина</h2>
+                <p class="text-[white] ml-[130px] text-[px]
+                max-sm:w-[600px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом, - таков классический портрет гамбургера, наиболее распространенной «быстрой» еды в США, от отравления которой ежедневно на больничных койках оказываются десятки тысяч американцев</p>
+                <button class=" bg-[#4E9F0D] text-[white] w-[350px] h-[100px] text-center text-[60px] ml-[130px] mt-[70px] hover:bg-[white] hover:text-[#4E9F0D] cursor-pointer max-sm:w-[250px] max-sm:h-[80px] max-sm:text-[50px]">14 500</button> 
+            </div>
+        </div> 
+    </header>
+    <section>
+        <div class="container mx-auto max-sm:w-[50%]]">
+            <ul class="flex gap-11 pt-4 pb-4 ml-20 mt-[50px] mb-[75px] text-[22px] max-sm:gap-[120px] max-sm:text-[36px]">
+                <li class="cursor-pointer text-[white] hover:text-[green]">Gamburger</li>
+                <li class="cursor-pointer text-[white] hover:text-[green]">Xot Dog</li>
+                <li class="cursor-pointer text-[white] hover:text-[green]">Pitsa</li>
+                <li class="cursor-pointer text-[white] hover:text-[green]">Ichimliklar</li>
+                <li class="cursor-pointer text-[white] hover:text-[green]">Soklar</li>
+            </ul>
+        <div class="grid lg:grid-cols-3 max-sm:grid-cols-2  grid-rowa-3 gap-4 justify-between max-sm:gap-x-[500px] max-sm:ml-[110px] max-sm:ml-[200px]">
+            <div class="group relative ">
+                <center class="">
+                    <div class="hidden group-hover:block absolute w-[350px] h-[350px] bg-[#4E9F0D80] ml-[75px] text-white text-[24px] pt-[150px] cursor-pointer max-sm:ml-[0px]">
+                          Добавить в корзину
+                    </div>                      
+                    <img src="imegs/burger/Без имени-1 2.svg" alt="food" class="max-sm:max-w-[350px]">
+                    <div class="w-[190px] h-[60px] bg-[#4E9F0D] text-[white] text-[32px] absolute ml-[75px]
+                    mt-[-60px] max-sm:ml-[10px]"><p class="pt-[5px] ">14 500</p></div>
+                <h2 class="text-[green] mt-9 mb-2 max-sm:ml-[10px] max-sm:w-[350px]">C ГОВЯДИНОЙ</h2>
+                <p class="text-[white] w-80 h-20 max-sm:w-[350px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </center>
+            </div><div class="group relative ">
+                <center class="">
+                    <div class="hidden group-hover:block absolute w-[350px] h-[350px] bg-[#4E9F0D80] ml-[75px] text-white text-[24px] pt-[150px] cursor-pointer max-sm:ml-[0px]">
+                          Добавить в корзину
+                    </div>                      
+                    <img src="imegs/burger/Без имени-1 2.svg" alt="food" class="max-sm:max-w-[350px]">
+                    <div class="w-[190px] h-[60px] bg-[#4E9F0D] text-[white] text-[32px] absolute ml-[75px]
+                    mt-[-60px] max-sm:ml-[10px]"><p class="pt-[5px] ">14 500</p></div>
+                <h2 class="text-[green] mt-9 mb-2 max-sm:ml-[10px] max-sm:w-[350px]">C ГОВЯДИНОЙ</h2>
+                <p class="text-[white] w-80 h-20 max-sm:w-[350px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </center>
+            </div>
+            <div class="group relative ">
+                <center class="">
+                    <div class="hidden group-hover:block absolute w-[350px] h-[350px] bg-[#4E9F0D80] ml-[75px] text-white text-[24px] pt-[150px] cursor-pointer max-sm:ml-[0px]">
+                          Добавить в корзину
+                    </div>                      
+                    <img src="imegs/burger/Без имени-1 2.svg" alt="food" class="max-sm:max-w-[350px]">
+                    <div class="w-[190px] h-[60px] bg-[#4E9F0D] text-[white] text-[32px] absolute ml-[75px]
+                    mt-[-60px] max-sm:ml-[10px]"><p class="pt-[5px] ">14 500</p></div>
+                <h2 class="text-[green] mt-9 mb-2 max-sm:ml-[10px] max-sm:w-[350px]">C ГОВЯДИНОЙ</h2>
+                <p class="text-[white] w-80 h-20 max-sm:w-[350px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </center>
+            </div>
+            <div class="group relative ">
+                <center class="">
+                    <div class="hidden group-hover:block absolute w-[350px] h-[350px] bg-[#4E9F0D80] ml-[75px] text-white text-[24px] pt-[150px] cursor-pointer max-sm:ml-[0px]">
+                          Добавить в корзину
+                    </div>                      
+                    <img src="imegs/burger/Без имени-1 2.svg" alt="food" class="max-sm:max-w-[350px]">
+                    <div class="w-[190px] h-[60px] bg-[#4E9F0D] text-[white] text-[32px] absolute ml-[75px]
+                    mt-[-60px] max-sm:ml-[10px]"><p class="pt-[5px] ">14 500</p></div>
+                <h2 class="text-[green] mt-9 mb-2 max-sm:ml-[10px] max-sm:w-[350px]">C ГОВЯДИНОЙ</h2>
+                <p class="text-[white] w-80 h-20 max-sm:w-[350px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </center>
+            </div>
+            <div class="group relative ">
+                <center class="">
+                    <div class="hidden group-hover:block absolute w-[350px] h-[350px] bg-[#4E9F0D80] ml-[75px] text-white text-[24px] pt-[150px] cursor-pointer max-sm:ml-[0px]">
+                          Добавить в корзину
+                    </div>                      
+                    <img src="imegs/burger/Без имени-1 2.svg" alt="food" class="max-sm:max-w-[350px]">
+                    <div class="w-[190px] h-[60px] bg-[#4E9F0D] text-[white] text-[32px] absolute ml-[75px]
+                    mt-[-60px] max-sm:ml-[10px]"><p class="pt-[5px] ">14 500</p></div>
+                <h2 class="text-[green] mt-9 mb-2 max-sm:ml-[10px] max-sm:w-[350px]">C ГОВЯДИНОЙ</h2>
+                <p class="text-[white] w-80 h-20 max-sm:w-[350px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </center>
+            </div>
+            <div class="group relative ">
+                <center class="">
+                    <div class="hidden group-hover:block absolute w-[350px] h-[350px] bg-[#4E9F0D80] ml-[75px] text-white text-[24px] pt-[150px] cursor-pointer max-sm:ml-[0px]">
+                          Добавить в корзину
+                    </div>                      
+                    <img src="imegs/burger/Без имени-1 2.svg" alt="food" class="max-sm:max-w-[350px]">
+                    <div class="w-[190px] h-[60px] bg-[#4E9F0D] text-[white] text-[32px] absolute ml-[75px]
+                    mt-[-60px] max-sm:ml-[10px]"><p class="pt-[5px] ">14 500</p></div>
+                <h2 class="text-[green] mt-9 mb-2 max-sm:ml-[10px] max-sm:w-[350px]">C ГОВЯДИНОЙ</h2>
+                <p class="text-[white] w-80 h-20 max-sm:w-[350px]">Свежая хрустящая булочка, листики салата, маринованный огурец с луком и небольшая котлета, сдобренная майонезом и кетчупом</p>
+                </center>
+            </div>
+            
+            </div>           
+        </div>        
+    </div>
+    </section>
+
+    <section class="w-full h-[559px] bgimg bg-no-repeat bg-center mt-[85px] mb-[30px]">
+        <div class="container m-auto max-sm:m-auto">
+            <h2 class="text-[#4E9F0D] text-center text-[36px] 
+            pt-[50px] max-sm:ml-[300px] max-sm:w-[700px]">Уникальная рецептура</h2>
+            <p class="w-[202px] h-[1px] bg-[#4E9F0D] m-auto mt-[15px] max-sm:ml-[500px]"></p>
+            <div class="ml-[260px] mt-[45px]">
+                <p class="text-[white] w-[1113px] h-[70px] max-sm:ml-[0px] max-sm:w-[800px] ">Гамбургер является разновидностью сэндвича, состоящей из жареной рубленой котлеты, что подается внутри разрезанной круглой булки. Он обычно дополняется разнообразными приправами, к примеру, листьями салата, кетчупом и майонезом, дольками маринованного огурца, помидора или кабачка, сырым или поджаренным луком.</p>
+                <p class="w-[1116px] h-[216px] text-[white]
+                mt-[30px] max-sm:ml-[0px] max-sm:w-[800px]">Будучи наиболее распространенной «быстрой» едой в США, гамбургер имеет далеко не американское происхождение. Ученые приписывают его авторство кочевникам-скифам, которые клали обжаренное мясо между двумя хлебными ломтиками. А в Новый свет «король» фаст-фуда приехал вместе с немецкими иммигрантами: его назвали, кстати, в честь Гамбурга, второго по масштабам города Германии. Официальной датой продажи первого гамбургера в США считается 27 июля 1900-го - в этот день гастроном из Нью-Хейвена предложил жителям города покупать приправленную кетчупом котлету, «зажатую» между двумя кусками булки. Изначально такая еда была прерогативой бедных слоев населения, но вскоре по всей стране стали открываться «фаст-фудовые» заведения, в которых, быстрым было не только питание, но и обслуживание, и смена клиентов. Эти общепиты взяли курс на оперативное детское питание - и для всегда занятого рабочего класса на тот момент они стали лучшим решением проблемы, где и чем быстро накормить детей.</p>
+            </div>
+        </div>
+    </section>
+    <h2 class="w-[318px] h-[42px] m-auto text-[#4E9F0D] text-[36px] mb-[30px]">Наши филиалы</h2>
+    <section>
+        <div class="container m-auto">
+            <div style="width: 100%; height: 500px;">
+                <iframe class="w-full h-[502px] max-sm:ml-[20px] max-sm:w-[1250px]" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.073069253118!2d69.20123767592284!3d41.2855141713129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8ba578f4f58d%3A0xd7a2ecf23413b7a0!2sNajot%20Ta&#39;lim%20Chilonzor%20Filial!5e0!3m2!1sen!2s!4v1732325885764!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"> 
+              </div>
+        </div>
+    </section>
+
+    <footer class="h-[260px] max-sm:">
+        <div class="container m-auto">
+            <ul class="flex justify-between max-sm:gap-[600px]">
+                <li><p class="text-white w-[160px] h-[30px] text-center bg-[#4E9F0D] text-lg mt-[45px] ml-[136px]">STREER88</p></li>
+                <li><p class="text-[24px] text-[#4E9F0D] mt-[45px] mr-[136px] font-bold max-sm:w-[300px]">+998 90 980 77 23</p></li>
+            </ul>
+            <ul class="flex justify-center  gap-10 text-[white] mt-10 text-[24px] max-sm:gap-[250px] max-sm:ml-[230px]">
+                <li class="hover:text-[#4E9F0D] cursor-pointer">Меню</li>
+                <li class="hover:text-[#4E9F0D] cursor-pointer">О нас</li>
+                <li class="hover:text-[#4E9F0D] cursor-pointer">Контакты</li>
+                <li class="hover:text-[#4E9F0D] cursor-pointer">Instagram</li>
+                <li class="hover:text-[#4E9F0D] cursor-pointer">Facebook</li>
+                <li class="hover:text-[#4E9F0D] cursor-pointer">Telegram Bot</li>
+            </ul>
+            <h2 class="text-[white] text-center mt-[40px] max-sm:ml-[400px] max-sm:w-full max-sm:pb-[80px]">Сайт разработан в целях обучения © PROWEB 2019</h2>
+        </div>
+    </footer>
+</body>
+</html>
